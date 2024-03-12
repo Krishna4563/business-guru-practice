@@ -1,0 +1,14 @@
+.carousel-container {
+  width: 100vw;
+}
+
+.slick-slide img {
+  width: 50vw;
+  height: auto;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}

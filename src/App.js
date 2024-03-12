@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Carousel from "./components/carousel";
+import HomeImg1 from "./assets/home-img-1.avif";
+import HomeImg2 from "./assets/home-img-2.avif";
+import HomeImg3 from "./assets/home-img-3.avif";
+import Home from "./components/home";
 
-function App() {
+const App = () => {
+  const images = [HomeImg1, HomeImg2, HomeImg3];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Carousel images={images} />
+      <Home />
     </div>
   );
-}
+};
 
 export default App;
