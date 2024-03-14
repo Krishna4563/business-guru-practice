@@ -4,6 +4,7 @@ import WhyImg1 from "../assets/why-img-1.png";
 import WhyImg2 from "../assets/why-img-2.png";
 import WhyImg3 from "../assets/why-img-3.png";
 import WhyImg4 from "../assets/why-img-4.png";
+import BusinessGuruImg from "../assets/business-guru-logo.jpg";
 
 const Home = () => {
   return (
@@ -95,17 +96,53 @@ const Home = () => {
                 <p>Corporate assurance on effective service delivery</p>
               </div>
             </div>
-            <div className="toWhom-img">img</div>
+            <div className="toWhom-img">
+              <img src={BusinessGuruImg} alt="img-bg" />
+            </div>
           </div>
 
           <div className="toWhom-content">
-            <div className="toWhom-text"></div>
-            <div className="toWhom-img"></div>
+            <div className="toWhom-img">
+              <img src={BusinessGuruImg} alt="img-bg" />
+            </div>
+            <div className="toWhom-text">
+              <h1>SERVICE SEEKER</h1>
+              <h2>
+                Need a trusted partner with strong fundamentals to own multiple
+                operational touch points
+              </h2>
+              <div className="toWhom-points">
+                <p>Helping you focus on your own core business operations</p>
+                <p>
+                  Seeks a reliable partner with requisite subject matter
+                  expertise
+                </p>
+                <p>Needs wide range of services at best commercials</p>
+                <p>Corporate assurance on effective service delivery</p>
+              </div>
+            </div>
           </div>
 
           <div className="toWhom-content">
-            <div className="toWhom-text"></div>
-            <div className="toWhom-img"></div>
+            <div className="toWhom-text">
+              <h1>SERVICE SEEKER</h1>
+              <h2>
+                Need a trusted partner with strong fundamentals to own multiple
+                operational touch points
+              </h2>
+              <div className="toWhom-points">
+                <p>Helping you focus on your own core business operations</p>
+                <p>
+                  Seeks a reliable partner with requisite subject matter
+                  expertise
+                </p>
+                <p>Needs wide range of services at best commercials</p>
+                <p>Corporate assurance on effective service delivery</p>
+              </div>
+            </div>
+            <div className="toWhom-img">
+              <img src={BusinessGuruImg} alt="img-bg" />
+            </div>
           </div>
         </div>
       </div>
