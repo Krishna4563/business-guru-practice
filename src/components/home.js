@@ -25,9 +25,9 @@ const Home = () => {
         <div className="intro-content-div">
           <h1>Introduction</h1>
           <p>
-            CONCAT is a leading B2B services marketplace for Cross-Functional
-            Business Outsourcing, Consulting, and Execution needs through the
-            platform concators.com.
+            Business Guru is a leading B2B services marketplace for
+            Cross-Functional Business Outsourcing, Consulting, and Execution
+            needs through the platform businessguru.com.
           </p>
           <br />
           <p>
@@ -35,7 +35,8 @@ const Home = () => {
             together the right strategy, right execution, and right technology
             within a budget and timelines. We own end-to-end delivery thereby
             reducing the risk and liability, promising efficient and on-time
-            delivery. The CONCAT stamp ensures transparency, trust & commitment.
+            delivery. The Business Guru stamp ensures transparency, trust &
+            commitment.
           </p>
           <br />
           <p>
@@ -77,7 +78,35 @@ const Home = () => {
       <div className="toWhom-div">
         <h1>What's in it for me?</h1>
         <div className="toWhom-content-div">
-          <div className="toWhom-content"></div>
+          <div className="toWhom-content">
+            <div className="toWhom-text">
+              <h1>SERVICE SEEKER</h1>
+              <h2>
+                Need a trusted partner with strong fundamentals to own multiple
+                operational touch points
+              </h2>
+              <div className="toWhom-points">
+                <p>Helping you focus on your own core business operations</p>
+                <p>
+                  Seeks a reliable partner with requisite subject matter
+                  expertise
+                </p>
+                <p>Needs wide range of services at best commercials</p>
+                <p>Corporate assurance on effective service delivery</p>
+              </div>
+            </div>
+            <div className="toWhom-img">img</div>
+          </div>
+
+          <div className="toWhom-content">
+            <div className="toWhom-text"></div>
+            <div className="toWhom-img"></div>
+          </div>
+
+          <div className="toWhom-content">
+            <div className="toWhom-text"></div>
+            <div className="toWhom-img"></div>
+          </div>
         </div>
       </div>
     </div>
