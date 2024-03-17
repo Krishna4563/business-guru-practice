@@ -43,3 +43,42 @@
   max-width: 203px;
   text-align: center;
 }
+
+.toWhom-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.toWhom-div h1 {
+  margin: 0 auto;
+}
+
+.toWhom-content-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.toWhom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65vw;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.toWhom-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.toWhom-text h2 {
+  width: 30rem;
+  font-size: 1em;
+}
+
+.toWhom-points {
+  display: flex;
+  flex-direction: column;
+}
