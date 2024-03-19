@@ -13,7 +13,10 @@ const App = () => {
     <div>
       <Carousel images={images} />
       <Home />
-      <Form />
+      <Form
+        serviceName="StartUp Advisory"
+        apiRoute="http://localhost:3001/send-email"
+      />
     </div>
   );
 };

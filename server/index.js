@@ -32,7 +32,7 @@ app.post("/send-email", (req, res) => {
   const mailOptions = {
     from: email,
     to: "daskrishna0902@gmail.com",
-    subject: "New visitor for Business Guru website",
+    subject: "New visitor for Business Guru website using Props",
     html: `<p>You got a new visitor for Business Guru website.</p><p>Organization: ${organization} <br />Name: ${name} <br /> Email: ${email} <br /> WhatsApp Number: ${phone}<br /> Message: ${message}</p>`,
   };
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./form.css";
 import axios from "axios";
 
-function Form() {
+function Form(props) {
   const [organization, setOrganization] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -19,7 +19,7 @@ function Form() {
     }
 
     try {
-      await axios.post("http://localhost:3001/send-email-2", {
+      await axios.post(props.apiRoute, {
         organization,
         name,
         phone,
@@ -43,7 +43,7 @@ function Form() {
     <div className="container">
       <div className="left">
         <h2>
-          Start-up Advisory
+          {props.serviceName}
           <br />
           Services
         </h2>
