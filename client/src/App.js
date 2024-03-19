@@ -15,7 +15,7 @@ const App = () => {
       <Home />
       <Form
         serviceName="StartUp Advisory"
-        apiRoute="http://localhost:3001/send-email"
+        apiRoute="http://localhost:3001/startup-advisory"
       />
     </div>
   );
